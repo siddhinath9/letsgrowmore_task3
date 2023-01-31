@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000080;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#myTable th{
+    background-color: #000080;
+    color: white;
+    width: 100%;
+}
+.display-table{
+    border: 1px solid rgb(110, 109, 109);
+    border-radius: 3%;
+    width: 25%;
+    padding: 5px;
+    margin: 5px;
+    font-size: large;
+}
+.display-table td{
+    box-shadow: 1px 1px 1px 1px rgb(201, 198, 198);
+    padding-right: 10px;
+}
+.display-table th{
+    background-color: #000080;
+    color: white;
+}
+.display-table img{
+    margin: 8px 0 0 8px;
+    height: 130px;
+    width: 125px;
+}
+.heading{
+    background-color: #000080;
+    color: white;
+    text-align: center;
+}
+.main-content{
+    margin: 35px;
+}
+#form{
+    font-size: large;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    padding: 15px;
+    background-color: rgb(227, 243, 243);
+}
+#form .label{
+display: flex;
+flex-direction: column;
+}
+#form label{
+    padding: 5px;
+}
+#form button{
+    padding: 5px;
+    width: 45%;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #000080;
+}
+#form button:hover{
+    background-color: rgb(197, 199, 199);
+    /* border:1px solid  rgb(41, 0, 80); */
+    color: rgb(41, 0, 80);
+}
+#form input{
+    padding: 3px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.form-display h2{
+text-align: center;
+color: rgb(41, 37, 37);
+margin: 10px;
+}
+.form-display{
+    background-color: rgb(227, 243, 243);
+    width:50%;
+    margin-top: 30px;
+    padding: 5px;
+}
+#myTable{
+    margin:0 125px;
+}
+
+@media (max-width: 820px) {
+    body{
+        background: none;
+        background-color: rgb(227, 243, 243);
+        font-size: small;
+    }
+    #myTable{
+        margin: 0;
+    }
+    #form .buttons{
+        width: 150px;
+        margin-top: 15px;
+    }
+}
+@media (max-width: 1024px) {
+#myTable{
+        margin: 0;
+    }
+}
